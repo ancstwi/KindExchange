@@ -42,6 +42,7 @@ const response = await fetch('http://localhost:3000/users');
 
 const users = await response.json();
 
+
 // Создать пользователя
 
 await fetch('http://localhost:3000/users', {
