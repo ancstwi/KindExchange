@@ -12,15 +12,15 @@ cd KindExchange
 cd frontend
 npm install
 
-# Запуск
+## Запуск
 npx expo start
 
-# Настройка фронтендаа (если веб)
+## Настройка фронтендаа (если веб)
 npx create-react-app frontend-web
 ИЛИ
 npm create vite@latest frontend-web -- --template react
 
-# Запуск
+## Запуск
 cd frontend-web
 npm install
 npm run dev
@@ -32,20 +32,20 @@ GET /users - получить всех пользователей
 GET /users/:id - пользователь по айди
 POST /users - создать пользователя
 
-# Надо добавить
+## Надо добавить
 Регистрация, чат, лента обновлений(?)
 
 
 # Полезные команды
 
-# Посмотреть базу данных
+## Посмотреть базу данных
 cd backend
 npx prisma studio
 
-# Получить изменения с бэка
+## Получить изменения с бэка
 git pull origin main
 
-# Проверить что бэк работает
+## Проверить что бэк работает
 curl http://localhost:3000/users
 
 
