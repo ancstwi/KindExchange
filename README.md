@@ -4,11 +4,11 @@ Student timebank application
 
 # Инструкция для фронтенд-разработчиков
 
-# Клонирование репозитория
+## Клонирование репозитория
 git clone https://github.com/ancstwi/KindExchange.git
 cd KindExchange
 
-# Настройка фронтенда (если React Native)
+## Настройка фронтенда (если React Native)
 cd frontend
 npm install
 
