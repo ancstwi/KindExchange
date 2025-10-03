@@ -32,8 +32,30 @@ npm install
 npm run dev
 
 
-# Доступные API эндпоинты
+# Подключение к API
+Базовый URL: http://localhost:3000
 
+## Пример запроса
+// Получить всех пользователей
+
+const response = await fetch('http://localhost:3000/users');
+
+const users = await response.json();
+
+// Создать пользователя
+
+await fetch('http://localhost:3000/users', {
+
+  method: 'POST',
+  
+  headers: { 'Content-Type': 'application/json' },
+  
+  body: JSON.stringify({ name: 'Новый пользователь' })
+
+});
+
+
+# Доступные API эндпоинты
 GET /users - получить всех пользователей
 
 GET /users/:id - пользователь по айди
